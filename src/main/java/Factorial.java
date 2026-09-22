@@ -3,7 +3,7 @@ public class Factorial {
         if (n < 0) {
             throw new IllegalArgumentException("Negative number");
         }
-
+        // Calculate factorial iteratively
         long result = 1;
         for (int i = 2; i <= n; i++) {
             result *= i;
